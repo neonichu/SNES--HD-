@@ -4,7 +4,7 @@
 	.align 4
 
     @ notaz
-#define asm_spc700 		1		// 1 = use notaz's asm_spc700 core
+#define asm_spc700 		0		// 1 = use notaz's asm_spc700 core
 
 /****************************************************************
 	defines

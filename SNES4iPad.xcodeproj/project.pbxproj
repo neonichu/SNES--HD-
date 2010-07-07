@@ -43,7 +43,6 @@
 		8EC9ED0D11E4FB5F00D8F8E8 /* snapshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0111E4FB5F00D8F8E8 /* snapshot.cpp */; };
 		8EC9ED0E11E4FB5F00D8F8E8 /* soundux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0211E4FB5F00D8F8E8 /* soundux.cpp */; };
 		8EC9ED0F11E4FB5F00D8F8E8 /* spc700.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0311E4FB5F00D8F8E8 /* spc700.cpp */; };
-		8EC9ED1011E4FB5F00D8F8E8 /* spc700a.s in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0411E4FB5F00D8F8E8 /* spc700a.s */; };
 		8EC9ED1111E4FB5F00D8F8E8 /* srtc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0511E4FB5F00D8F8E8 /* srtc.cpp */; };
 		8EC9ED1211E4FB5F00D8F8E8 /* tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0611E4FB5F00D8F8E8 /* tile.cpp */; };
 		8EC9ED1311E4FB5F00D8F8E8 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0711E4FB5F00D8F8E8 /* unzip.c */; };
@@ -456,7 +455,6 @@
 				8EC9ED0D11E4FB5F00D8F8E8 /* snapshot.cpp in Sources */,
 				8EC9ED0E11E4FB5F00D8F8E8 /* soundux.cpp in Sources */,
 				8EC9ED0F11E4FB5F00D8F8E8 /* spc700.cpp in Sources */,
-				8EC9ED1011E4FB5F00D8F8E8 /* spc700a.s in Sources */,
 				8EC9ED1111E4FB5F00D8F8E8 /* srtc.cpp in Sources */,
 				8EC9ED1211E4FB5F00D8F8E8 /* tile.cpp in Sources */,
 				8EC9ED1311E4FB5F00D8F8E8 /* unzip.c in Sources */,
@@ -524,7 +522,7 @@
 				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.2;
-				SNES_CFLAGS = " -D__IPHONE__ -D_SNESPPC -DASM_SPC700 -DZLIB -DUNZIP_SUPPORT -DOLD_COLOUR_BLENDING -DUSE_SA1 -DSUPER_FX -DLSB_FIRST -DCPU_SHUTDOWN -DVAR_CYCLES -funsigned-char -ffast-math -fexpensive-optimizations -mstructure-size-boundary=32 -falign-functions=32 -falign-loops -falign-labels -falign-jumps -finline -finline-functions -fno-builtin -fno-common -fomit-frame-pointer -fpeel-loops -fstrength-reduce -funroll-loops -fstrict-aliasing";
+				SNES_CFLAGS = "-D__IPHONE__ -D_SNESPPC -DNOT_ASM_SPC700 -DZLIB -DUNZIP_SUPPORT -DOLD_COLOUR_BLENDING -DUSE_SA1 -DSUPER_FX -DLSB_FIRST -DCPU_SHUTDOWN -DVAR_CYCLES -funsigned-char -ffast-math -fexpensive-optimizations -mstructure-size-boundary=32 -falign-functions=32 -falign-loops -falign-labels -falign-jumps -finline -finline-functions -fno-builtin -fno-common -fomit-frame-pointer -fpeel-loops -fstrength-reduce -funroll-loops -fstrict-aliasing";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -552,7 +550,7 @@
 				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.2;
-				SNES_CFLAGS = " -D__IPHONE__ -D_SNESPPC -DASM_SPC700 -DZLIB -DUNZIP_SUPPORT -DOLD_COLOUR_BLENDING -DUSE_SA1 -DSUPER_FX -DLSB_FIRST -DCPU_SHUTDOWN -DVAR_CYCLES -funsigned-char -ffast-math -fexpensive-optimizations -mstructure-size-boundary=32 -falign-functions=32 -falign-loops -falign-labels -falign-jumps -finline -finline-functions -fno-builtin -fno-common -fomit-frame-pointer -fpeel-loops -fstrength-reduce -funroll-loops -fstrict-aliasing";
+				SNES_CFLAGS = "-D__IPHONE__ -D_SNESPPC -DNOT_ASM_SPC700 -DZLIB -DUNZIP_SUPPORT -DOLD_COLOUR_BLENDING -DUSE_SA1 -DSUPER_FX -DLSB_FIRST -DCPU_SHUTDOWN -DVAR_CYCLES -funsigned-char -ffast-math -fexpensive-optimizations -mstructure-size-boundary=32 -falign-functions=32 -falign-loops -falign-labels -falign-jumps -finline -finline-functions -fno-builtin -fno-common -fomit-frame-pointer -fpeel-loops -fstrength-reduce -funroll-loops -fstrict-aliasing";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
