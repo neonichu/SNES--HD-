@@ -28,6 +28,7 @@ SNES4iPadAppDelegate *AppDelegate()
 @synthesize romDirectoryPath, saveDirectoryPath, snapshotDirectoryPath;
 @synthesize emulationViewController, webViewController, webNavController;
 
+char SYSTEM_DIR[1024];
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -44,8 +45,12 @@ SNES4iPadAppDelegate *AppDelegate()
 	controlPadManager = [[ControlPadManager alloc] init];
 	
 
-	NSString *documentsPath = @"/var/mobile/Media";
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsPath = [paths objectAtIndex:0];
+
 	romDirectoryPath = [[documentsPath stringByAppendingPathComponent:@"ROMs/SNES/"] retain];
+    strcpy(SYSTEM_DIR, [romDirectoryPath UTF8String]);
+    
 	saveDirectoryPath = [[romDirectoryPath stringByAppendingPathComponent:@"saves"] retain];
 	snapshotDirectoryPath = [[saveDirectoryPath stringByAppendingPathComponent:@"snapshots"] retain];
 		

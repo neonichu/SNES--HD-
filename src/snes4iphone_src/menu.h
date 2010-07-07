@@ -35,7 +35,8 @@ extern "C" {
 #include "iphone_sdk.h"
 
 #define DIR_SEPERATOR	"/"
-#define SYSTEM_DIR		"/var/mobile/Media/ROMs/SNES"
+    
+extern    char SYSTEM_DIR[1024];
 #endif
 
 
