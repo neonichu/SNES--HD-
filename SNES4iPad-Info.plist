@@ -7,17 +7,15 @@
 	<key>CFBundleDisplayName</key>
 	<string>SNES (HD)</string>
 	<key>CFBundleExecutable</key>
-	<string>SNES-HD</string>
+	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
 	<string>Icon.png</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.wherethewoozlewasnt.snes-hd</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>UIDeviceFamily</key>
-	<integer>2</integer>
 	<key>CFBundleName</key>
-	<string>SNES-HD</string>
+	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
