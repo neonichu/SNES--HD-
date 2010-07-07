@@ -14,6 +14,46 @@
 		2804200B108E984D000629CD /* RomSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28042008108E984D000629CD /* RomSelectionViewController.m */; };
 		2804200C108E984D000629CD /* RomDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804200A108E984D000629CD /* RomDetailViewController.m */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		8EC9ECDA11E4FAFC00D8F8E8 /* apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECD111E4FAFC00D8F8E8 /* apu.cpp */; };
+		8EC9ECDB11E4FAFC00D8F8E8 /* c4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECD211E4FAFC00D8F8E8 /* c4.cpp */; };
+		8EC9ECDC11E4FAFC00D8F8E8 /* c4emu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECD311E4FAFC00D8F8E8 /* c4emu.cpp */; };
+		8EC9ECDD11E4FAFC00D8F8E8 /* cheats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECD411E4FAFC00D8F8E8 /* cheats.cpp */; };
+		8EC9ECDE11E4FAFC00D8F8E8 /* cheats2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECD511E4FAFC00D8F8E8 /* cheats2.cpp */; };
+		8EC9ECDF11E4FAFC00D8F8E8 /* clip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECD611E4FAFC00D8F8E8 /* clip.cpp */; };
+		8EC9ECE011E4FAFC00D8F8E8 /* cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECD711E4FAFC00D8F8E8 /* cpu.cpp */; };
+		8EC9ECE111E4FAFC00D8F8E8 /* cpuexec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECD811E4FAFC00D8F8E8 /* cpuexec.cpp */; };
+		8EC9ECE211E4FAFC00D8F8E8 /* data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECD911E4FAFC00D8F8E8 /* data.cpp */; };
+		8EC9ECEF11E4FB2100D8F8E8 /* dma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECE311E4FB2100D8F8E8 /* dma.cpp */; };
+		8EC9ECF011E4FB2100D8F8E8 /* dsp1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECE411E4FB2100D8F8E8 /* dsp1.cpp */; };
+		8EC9ECF111E4FB2100D8F8E8 /* fxemu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECE511E4FB2100D8F8E8 /* fxemu.cpp */; };
+		8EC9ECF211E4FB2100D8F8E8 /* fxinst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECE611E4FB2100D8F8E8 /* fxinst.cpp */; };
+		8EC9ECF311E4FB2100D8F8E8 /* gfx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECE711E4FB2100D8F8E8 /* gfx.cpp */; };
+		8EC9ECF411E4FB2100D8F8E8 /* globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECE811E4FB2100D8F8E8 /* globals.cpp */; };
+		8EC9ECF511E4FB2100D8F8E8 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECE911E4FB2100D8F8E8 /* input.c */; };
+		8EC9ECF611E4FB2100D8F8E8 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECEA11E4FB2100D8F8E8 /* ioapi.c */; };
+		8EC9ECF711E4FB2100D8F8E8 /* loadzip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECEB11E4FB2100D8F8E8 /* loadzip.cpp */; };
+		8EC9ECF811E4FB2100D8F8E8 /* memmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECEC11E4FB2100D8F8E8 /* memmap.cpp */; };
+		8EC9ECF911E4FB2100D8F8E8 /* menu.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECED11E4FB2100D8F8E8 /* menu.c */; };
+		8EC9ECFA11E4FB2100D8F8E8 /* ppu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECEE11E4FB2100D8F8E8 /* ppu.cpp */; };
+		8EC9ED0811E4FB5F00D8F8E8 /* os9x_65c816.S in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECFC11E4FB5F00D8F8E8 /* os9x_65c816.S */; };
+		8EC9ED0911E4FB5F00D8F8E8 /* os9x_asm_cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECFD11E4FB5F00D8F8E8 /* os9x_asm_cpu.cpp */; };
+		8EC9ED0A11E4FB5F00D8F8E8 /* sa1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECFE11E4FB5F00D8F8E8 /* sa1.cpp */; };
+		8EC9ED0B11E4FB5F00D8F8E8 /* sdd1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ECFF11E4FB5F00D8F8E8 /* sdd1.cpp */; };
+		8EC9ED0C11E4FB5F00D8F8E8 /* sdd1emu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0011E4FB5F00D8F8E8 /* sdd1emu.cpp */; };
+		8EC9ED0D11E4FB5F00D8F8E8 /* snapshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0111E4FB5F00D8F8E8 /* snapshot.cpp */; };
+		8EC9ED0E11E4FB5F00D8F8E8 /* soundux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0211E4FB5F00D8F8E8 /* soundux.cpp */; };
+		8EC9ED0F11E4FB5F00D8F8E8 /* spc700.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0311E4FB5F00D8F8E8 /* spc700.cpp */; };
+		8EC9ED1011E4FB5F00D8F8E8 /* spc700a.s in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0411E4FB5F00D8F8E8 /* spc700a.s */; };
+		8EC9ED1111E4FB5F00D8F8E8 /* srtc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0511E4FB5F00D8F8E8 /* srtc.cpp */; };
+		8EC9ED1211E4FB5F00D8F8E8 /* tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0611E4FB5F00D8F8E8 /* tile.cpp */; };
+		8EC9ED1311E4FB5F00D8F8E8 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9ED0711E4FB5F00D8F8E8 /* unzip.c */; };
+		8ECEC9EF11E4FDFF00F2050D /* iphone_highlightbar.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEC9EB11E4FDFF00F2050D /* iphone_highlightbar.c */; };
+		8ECEC9F011E4FDFF00F2050D /* iphone_menu_header.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEC9EC11E4FDFF00F2050D /* iphone_menu_header.c */; };
+		8ECEC9F111E4FDFF00F2050D /* iphone_menutile.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEC9ED11E4FDFF00F2050D /* iphone_menutile.c */; };
+		8ECEC9F211E4FDFF00F2050D /* iphone_sdk.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEC9EE11E4FDFF00F2050D /* iphone_sdk.c */; };
+		8ECECA0C11E4FE4900F2050D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8ECECA0B11E4FE4900F2050D /* main.cpp */; };
+		8ECECA2111E4FE6F00F2050D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECECA2011E4FE6F00F2050D /* libz.dylib */; };
+		8ECECA2C11E4FE9700F2050D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECECA2B11E4FE9700F2050D /* AudioToolbox.framework */; };
 		CE43A4A5119DEA3C0007E399 /* EmulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A4A4119DEA3C0007E399 /* EmulationViewController.m */; };
 		CE43A4B4119DF2B00007E399 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE43A4B3119DF2B00007E399 /* QuartzCore.framework */; };
 		CE43A4B6119DF2D80007E399 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE43A4B5119DF2D80007E399 /* IOSurface.framework */; };
@@ -57,6 +97,46 @@
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AAE50D9B0CCF005BE974 /* SNES4iPad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNES4iPad_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EC9ECD111E4FAFC00D8F8E8 /* apu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = apu.cpp; path = src/snes4iphone_src/apu.cpp; sourceTree = "<group>"; };
+		8EC9ECD211E4FAFC00D8F8E8 /* c4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = c4.cpp; path = src/snes4iphone_src/c4.cpp; sourceTree = "<group>"; };
+		8EC9ECD311E4FAFC00D8F8E8 /* c4emu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = c4emu.cpp; path = src/snes4iphone_src/c4emu.cpp; sourceTree = "<group>"; };
+		8EC9ECD411E4FAFC00D8F8E8 /* cheats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cheats.cpp; path = src/snes4iphone_src/cheats.cpp; sourceTree = "<group>"; };
+		8EC9ECD511E4FAFC00D8F8E8 /* cheats2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cheats2.cpp; path = src/snes4iphone_src/cheats2.cpp; sourceTree = "<group>"; };
+		8EC9ECD611E4FAFC00D8F8E8 /* clip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = clip.cpp; path = src/snes4iphone_src/clip.cpp; sourceTree = "<group>"; };
+		8EC9ECD711E4FAFC00D8F8E8 /* cpu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpu.cpp; path = src/snes4iphone_src/cpu.cpp; sourceTree = "<group>"; };
+		8EC9ECD811E4FAFC00D8F8E8 /* cpuexec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuexec.cpp; path = src/snes4iphone_src/cpuexec.cpp; sourceTree = "<group>"; };
+		8EC9ECD911E4FAFC00D8F8E8 /* data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = data.cpp; path = src/snes4iphone_src/data.cpp; sourceTree = "<group>"; };
+		8EC9ECE311E4FB2100D8F8E8 /* dma.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dma.cpp; path = src/snes4iphone_src/dma.cpp; sourceTree = "<group>"; };
+		8EC9ECE411E4FB2100D8F8E8 /* dsp1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dsp1.cpp; path = src/snes4iphone_src/dsp1.cpp; sourceTree = "<group>"; };
+		8EC9ECE511E4FB2100D8F8E8 /* fxemu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fxemu.cpp; path = src/snes4iphone_src/fxemu.cpp; sourceTree = "<group>"; };
+		8EC9ECE611E4FB2100D8F8E8 /* fxinst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fxinst.cpp; path = src/snes4iphone_src/fxinst.cpp; sourceTree = "<group>"; };
+		8EC9ECE711E4FB2100D8F8E8 /* gfx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gfx.cpp; path = src/snes4iphone_src/gfx.cpp; sourceTree = "<group>"; };
+		8EC9ECE811E4FB2100D8F8E8 /* globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = globals.cpp; path = src/snes4iphone_src/globals.cpp; sourceTree = "<group>"; };
+		8EC9ECE911E4FB2100D8F8E8 /* input.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = input.c; path = src/snes4iphone_src/input.c; sourceTree = "<group>"; };
+		8EC9ECEA11E4FB2100D8F8E8 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = src/snes4iphone_src/ioapi.c; sourceTree = "<group>"; };
+		8EC9ECEB11E4FB2100D8F8E8 /* loadzip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = loadzip.cpp; path = src/snes4iphone_src/loadzip.cpp; sourceTree = "<group>"; };
+		8EC9ECEC11E4FB2100D8F8E8 /* memmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = memmap.cpp; path = src/snes4iphone_src/memmap.cpp; sourceTree = "<group>"; };
+		8EC9ECED11E4FB2100D8F8E8 /* menu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = menu.c; path = src/snes4iphone_src/menu.c; sourceTree = "<group>"; };
+		8EC9ECEE11E4FB2100D8F8E8 /* ppu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ppu.cpp; path = src/snes4iphone_src/ppu.cpp; sourceTree = "<group>"; };
+		8EC9ECFC11E4FB5F00D8F8E8 /* os9x_65c816.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = os9x_65c816.S; path = src/snes4iphone_src/os9x_65c816.S; sourceTree = "<group>"; };
+		8EC9ECFD11E4FB5F00D8F8E8 /* os9x_asm_cpu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = os9x_asm_cpu.cpp; path = src/snes4iphone_src/os9x_asm_cpu.cpp; sourceTree = "<group>"; };
+		8EC9ECFE11E4FB5F00D8F8E8 /* sa1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sa1.cpp; path = src/snes4iphone_src/sa1.cpp; sourceTree = "<group>"; };
+		8EC9ECFF11E4FB5F00D8F8E8 /* sdd1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sdd1.cpp; path = src/snes4iphone_src/sdd1.cpp; sourceTree = "<group>"; };
+		8EC9ED0011E4FB5F00D8F8E8 /* sdd1emu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sdd1emu.cpp; path = src/snes4iphone_src/sdd1emu.cpp; sourceTree = "<group>"; };
+		8EC9ED0111E4FB5F00D8F8E8 /* snapshot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = snapshot.cpp; path = src/snes4iphone_src/snapshot.cpp; sourceTree = "<group>"; };
+		8EC9ED0211E4FB5F00D8F8E8 /* soundux.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = soundux.cpp; path = src/snes4iphone_src/soundux.cpp; sourceTree = "<group>"; };
+		8EC9ED0311E4FB5F00D8F8E8 /* spc700.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = spc700.cpp; path = src/snes4iphone_src/spc700.cpp; sourceTree = "<group>"; };
+		8EC9ED0411E4FB5F00D8F8E8 /* spc700a.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = spc700a.s; path = src/snes4iphone_src/spc700a.s; sourceTree = "<group>"; };
+		8EC9ED0511E4FB5F00D8F8E8 /* srtc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = srtc.cpp; path = src/snes4iphone_src/srtc.cpp; sourceTree = "<group>"; };
+		8EC9ED0611E4FB5F00D8F8E8 /* tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tile.cpp; path = src/snes4iphone_src/tile.cpp; sourceTree = "<group>"; };
+		8EC9ED0711E4FB5F00D8F8E8 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = src/snes4iphone_src/unzip.c; sourceTree = "<group>"; };
+		8ECEC9EB11E4FDFF00F2050D /* iphone_highlightbar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = iphone_highlightbar.c; path = src/snes4iphone_src/iphone_highlightbar.c; sourceTree = "<group>"; };
+		8ECEC9EC11E4FDFF00F2050D /* iphone_menu_header.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = iphone_menu_header.c; path = src/snes4iphone_src/iphone_menu_header.c; sourceTree = "<group>"; };
+		8ECEC9ED11E4FDFF00F2050D /* iphone_menutile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = iphone_menutile.c; path = src/snes4iphone_src/iphone_menutile.c; sourceTree = "<group>"; };
+		8ECEC9EE11E4FDFF00F2050D /* iphone_sdk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = iphone_sdk.c; path = src/snes4iphone_src/iphone_sdk.c; sourceTree = "<group>"; };
+		8ECECA0B11E4FE4900F2050D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/snes4iphone_src/main.cpp; sourceTree = "<group>"; };
+		8ECECA2011E4FE6F00F2050D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8ECECA2B11E4FE9700F2050D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CE43A4A3119DEA3C0007E399 /* EmulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmulationViewController.h; sourceTree = "<group>"; };
 		CE43A4A4119DEA3C0007E399 /* EmulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmulationViewController.m; sourceTree = "<group>"; };
 		CE43A4B3119DF2B00007E399 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -107,6 +187,8 @@
 				CEA57F0B1198E6F8004DCD60 /* GameKit.framework in Frameworks */,
 				CE43A4B4119DF2B00007E399 /* QuartzCore.framework in Frameworks */,
 				CE43A4B6119DF2D80007E399 /* IOSurface.framework in Frameworks */,
+				8ECECA2111E4FE6F00F2050D /* libz.dylib in Frameworks */,
+				8ECECA2C11E4FE9700F2050D /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +235,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8EC9ECCF11E4FACC00D8F8E8 /* snes4iphone */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				CE43A4CC119DFEF70007E399 /* Resources */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -181,8 +264,55 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				8ECECA2011E4FE6F00F2050D /* libz.dylib */,
+				8ECECA2B11E4FE9700F2050D /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EC9ECCF11E4FACC00D8F8E8 /* snes4iphone */ = {
+			isa = PBXGroup;
+			children = (
+				8EC9ECD111E4FAFC00D8F8E8 /* apu.cpp */,
+				8EC9ECD211E4FAFC00D8F8E8 /* c4.cpp */,
+				8EC9ECD311E4FAFC00D8F8E8 /* c4emu.cpp */,
+				8EC9ECD411E4FAFC00D8F8E8 /* cheats.cpp */,
+				8EC9ECD511E4FAFC00D8F8E8 /* cheats2.cpp */,
+				8EC9ECD611E4FAFC00D8F8E8 /* clip.cpp */,
+				8EC9ECD711E4FAFC00D8F8E8 /* cpu.cpp */,
+				8EC9ECD811E4FAFC00D8F8E8 /* cpuexec.cpp */,
+				8EC9ECD911E4FAFC00D8F8E8 /* data.cpp */,
+				8EC9ECE311E4FB2100D8F8E8 /* dma.cpp */,
+				8EC9ECE411E4FB2100D8F8E8 /* dsp1.cpp */,
+				8EC9ECE511E4FB2100D8F8E8 /* fxemu.cpp */,
+				8EC9ECE611E4FB2100D8F8E8 /* fxinst.cpp */,
+				8EC9ECE711E4FB2100D8F8E8 /* gfx.cpp */,
+				8EC9ECE811E4FB2100D8F8E8 /* globals.cpp */,
+				8EC9ECE911E4FB2100D8F8E8 /* input.c */,
+				8EC9ECEA11E4FB2100D8F8E8 /* ioapi.c */,
+				8EC9ECEB11E4FB2100D8F8E8 /* loadzip.cpp */,
+				8EC9ECEC11E4FB2100D8F8E8 /* memmap.cpp */,
+				8EC9ECED11E4FB2100D8F8E8 /* menu.c */,
+				8EC9ECEE11E4FB2100D8F8E8 /* ppu.cpp */,
+				8EC9ECFC11E4FB5F00D8F8E8 /* os9x_65c816.S */,
+				8EC9ECFD11E4FB5F00D8F8E8 /* os9x_asm_cpu.cpp */,
+				8EC9ECFE11E4FB5F00D8F8E8 /* sa1.cpp */,
+				8EC9ECFF11E4FB5F00D8F8E8 /* sdd1.cpp */,
+				8EC9ED0011E4FB5F00D8F8E8 /* sdd1emu.cpp */,
+				8EC9ED0111E4FB5F00D8F8E8 /* snapshot.cpp */,
+				8EC9ED0211E4FB5F00D8F8E8 /* soundux.cpp */,
+				8EC9ED0311E4FB5F00D8F8E8 /* spc700.cpp */,
+				8EC9ED0411E4FB5F00D8F8E8 /* spc700a.s */,
+				8EC9ED0511E4FB5F00D8F8E8 /* srtc.cpp */,
+				8EC9ED0611E4FB5F00D8F8E8 /* tile.cpp */,
+				8EC9ED0711E4FB5F00D8F8E8 /* unzip.c */,
+				8ECEC9EB11E4FDFF00F2050D /* iphone_highlightbar.c */,
+				8ECEC9EC11E4FDFF00F2050D /* iphone_menu_header.c */,
+				8ECEC9ED11E4FDFF00F2050D /* iphone_menutile.c */,
+				8ECEC9EE11E4FDFF00F2050D /* iphone_sdk.c */,
+				8ECECA0B11E4FE4900F2050D /* main.cpp */,
+			);
+			name = snes4iphone;
 			sourceTree = "<group>";
 		};
 		CE43A4CC119DFEF70007E399 /* Resources */ = {
@@ -297,6 +427,44 @@
 				CEEA77CE119F3F4400440258 /* ScreenView.m in Sources */,
 				CEEA77D1119F3F6100440258 /* ScreenLayer.m in Sources */,
 				CEE8574411AAA81100784F8D /* WebBrowserViewController.m in Sources */,
+				8EC9ECDA11E4FAFC00D8F8E8 /* apu.cpp in Sources */,
+				8EC9ECDB11E4FAFC00D8F8E8 /* c4.cpp in Sources */,
+				8EC9ECDC11E4FAFC00D8F8E8 /* c4emu.cpp in Sources */,
+				8EC9ECDD11E4FAFC00D8F8E8 /* cheats.cpp in Sources */,
+				8EC9ECDE11E4FAFC00D8F8E8 /* cheats2.cpp in Sources */,
+				8EC9ECDF11E4FAFC00D8F8E8 /* clip.cpp in Sources */,
+				8EC9ECE011E4FAFC00D8F8E8 /* cpu.cpp in Sources */,
+				8EC9ECE111E4FAFC00D8F8E8 /* cpuexec.cpp in Sources */,
+				8EC9ECE211E4FAFC00D8F8E8 /* data.cpp in Sources */,
+				8EC9ECEF11E4FB2100D8F8E8 /* dma.cpp in Sources */,
+				8EC9ECF011E4FB2100D8F8E8 /* dsp1.cpp in Sources */,
+				8EC9ECF111E4FB2100D8F8E8 /* fxemu.cpp in Sources */,
+				8EC9ECF211E4FB2100D8F8E8 /* fxinst.cpp in Sources */,
+				8EC9ECF311E4FB2100D8F8E8 /* gfx.cpp in Sources */,
+				8EC9ECF411E4FB2100D8F8E8 /* globals.cpp in Sources */,
+				8EC9ECF511E4FB2100D8F8E8 /* input.c in Sources */,
+				8EC9ECF611E4FB2100D8F8E8 /* ioapi.c in Sources */,
+				8EC9ECF711E4FB2100D8F8E8 /* loadzip.cpp in Sources */,
+				8EC9ECF811E4FB2100D8F8E8 /* memmap.cpp in Sources */,
+				8EC9ECF911E4FB2100D8F8E8 /* menu.c in Sources */,
+				8EC9ECFA11E4FB2100D8F8E8 /* ppu.cpp in Sources */,
+				8EC9ED0811E4FB5F00D8F8E8 /* os9x_65c816.S in Sources */,
+				8EC9ED0911E4FB5F00D8F8E8 /* os9x_asm_cpu.cpp in Sources */,
+				8EC9ED0A11E4FB5F00D8F8E8 /* sa1.cpp in Sources */,
+				8EC9ED0B11E4FB5F00D8F8E8 /* sdd1.cpp in Sources */,
+				8EC9ED0C11E4FB5F00D8F8E8 /* sdd1emu.cpp in Sources */,
+				8EC9ED0D11E4FB5F00D8F8E8 /* snapshot.cpp in Sources */,
+				8EC9ED0E11E4FB5F00D8F8E8 /* soundux.cpp in Sources */,
+				8EC9ED0F11E4FB5F00D8F8E8 /* spc700.cpp in Sources */,
+				8EC9ED1011E4FB5F00D8F8E8 /* spc700a.s in Sources */,
+				8EC9ED1111E4FB5F00D8F8E8 /* srtc.cpp in Sources */,
+				8EC9ED1211E4FB5F00D8F8E8 /* tile.cpp in Sources */,
+				8EC9ED1311E4FB5F00D8F8E8 /* unzip.c in Sources */,
+				8ECEC9EF11E4FDFF00F2050D /* iphone_highlightbar.c in Sources */,
+				8ECEC9F011E4FDFF00F2050D /* iphone_menu_header.c in Sources */,
+				8ECEC9F111E4FDFF00F2050D /* iphone_menutile.c in Sources */,
+				8ECEC9F211E4FDFF00F2050D /* iphone_sdk.c in Sources */,
+				8ECECA0C11E4FE4900F2050D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +524,7 @@
 				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.2;
-				SNES_CFLAGS = " -D__IPHONE__ -D_SNESPPC -DASM_SPC700 -DZLIB -DUNZIP_SUPPORT -DOLD_COLOUR_BLENDING -DUSE_SA1 -DSUPER_FX -DLSB_FIRST -DCPU_SHUTDOWN -DVAR_CYCLES -fnested-functions -funsigned-char -ffast-math -fexpensive-optimizations -mstructure-size-boundary=32 -falign-functions=32 -falign-loops -falign-labels -falign-jumps -finline -finline-functions -fno-builtin -fno-common -fomit-frame-pointer -fpeel-loops -fstrength-reduce -funroll-loops -fstrict-aliasing";
+				SNES_CFLAGS = " -D__IPHONE__ -D_SNESPPC -DASM_SPC700 -DZLIB -DUNZIP_SUPPORT -DOLD_COLOUR_BLENDING -DUSE_SA1 -DSUPER_FX -DLSB_FIRST -DCPU_SHUTDOWN -DVAR_CYCLES -funsigned-char -ffast-math -fexpensive-optimizations -mstructure-size-boundary=32 -falign-functions=32 -falign-loops -falign-labels -falign-jumps -finline -finline-functions -fno-builtin -fno-common -fomit-frame-pointer -fpeel-loops -fstrength-reduce -funroll-loops -fstrict-aliasing";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -384,7 +552,7 @@
 				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.2;
-				SNES_CFLAGS = " -D__IPHONE__ -D_SNESPPC -DASM_SPC700 -DZLIB -DUNZIP_SUPPORT -DOLD_COLOUR_BLENDING -DUSE_SA1 -DSUPER_FX -DLSB_FIRST -DCPU_SHUTDOWN -DVAR_CYCLES -fnested-functions -funsigned-char -ffast-math -fexpensive-optimizations -mstructure-size-boundary=32 -falign-functions=32 -falign-loops -falign-labels -falign-jumps -finline -finline-functions -fno-builtin -fno-common -fomit-frame-pointer -fpeel-loops -fstrength-reduce -funroll-loops -fstrict-aliasing";
+				SNES_CFLAGS = " -D__IPHONE__ -D_SNESPPC -DASM_SPC700 -DZLIB -DUNZIP_SUPPORT -DOLD_COLOUR_BLENDING -DUSE_SA1 -DSUPER_FX -DLSB_FIRST -DCPU_SHUTDOWN -DVAR_CYCLES -funsigned-char -ffast-math -fexpensive-optimizations -mstructure-size-boundary=32 -falign-functions=32 -falign-loops -falign-labels -falign-jumps -finline -finline-functions -fno-builtin -fno-common -fomit-frame-pointer -fpeel-loops -fstrength-reduce -funroll-loops -fstrict-aliasing";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
