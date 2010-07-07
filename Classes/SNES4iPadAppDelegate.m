@@ -33,6 +33,25 @@ char SYSTEM_DIR[1024];
 #pragma mark -
 #pragma mark Application lifecycle
 
+- (void)copyTestROMFromBundle {
+	NSString *testRomSourcePath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"smc"];
+
+    NSError *err = nil;
+    
+    BOOL dirOk = [[NSFileManager defaultManager] createDirectoryAtPath:romDirectoryPath withIntermediateDirectories:YES attributes:nil error:&err];
+    NSLog(@"Directory %@ created or existed : %d (%@)", romDirectoryPath, dirOk, [err localizedDescription]); 
+    
+    NSString *testRomDestinationPath = [romDirectoryPath
+                                        stringByAppendingPathComponent:[testRomSourcePath lastPathComponent]];
+    
+    [[NSFileManager defaultManager] removeItemAtPath:testRomDestinationPath error:NULL];
+    BOOL copyOk = [[NSFileManager defaultManager]
+                        copyItemAtPath:testRomSourcePath
+                                toPath:testRomDestinationPath
+                                error:&err];
+    NSLog(@"Copied file %@ into %@ : %d (%@)", testRomSourcePath, romDirectoryPath, copyOk, [err localizedDescription]);
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
       
       [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
@@ -50,6 +69,8 @@ char SYSTEM_DIR[1024];
 
 	romDirectoryPath = [[documentsPath stringByAppendingPathComponent:@"ROMs/SNES/"] retain];
     strcpy(SYSTEM_DIR, [romDirectoryPath UTF8String]);
+    
+    [self copyTestROMFromBundle];
     
 	saveDirectoryPath = [[romDirectoryPath stringByAppendingPathComponent:@"saves"] retain];
 	snapshotDirectoryPath = [[saveDirectoryPath stringByAppendingPathComponent:@"snapshots"] retain];

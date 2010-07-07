@@ -53,6 +53,7 @@
 		8ECECA0C11E4FE4900F2050D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8ECECA0B11E4FE4900F2050D /* main.cpp */; };
 		8ECECA2111E4FE6F00F2050D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECECA2011E4FE6F00F2050D /* libz.dylib */; };
 		8ECECA2C11E4FE9700F2050D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECECA2B11E4FE9700F2050D /* AudioToolbox.framework */; };
+		8ECECC7711E53DF300F2050D /* test.smc in Resources */ = {isa = PBXBuildFile; fileRef = 8ECECC7611E53DF300F2050D /* test.smc */; };
 		CE43A4A5119DEA3C0007E399 /* EmulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A4A4119DEA3C0007E399 /* EmulationViewController.m */; };
 		CE43A4B4119DF2B00007E399 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE43A4B3119DF2B00007E399 /* QuartzCore.framework */; };
 		CE43A4B6119DF2D80007E399 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE43A4B5119DF2D80007E399 /* IOSurface.framework */; };
@@ -136,6 +137,7 @@
 		8ECECA0B11E4FE4900F2050D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/snes4iphone_src/main.cpp; sourceTree = "<group>"; };
 		8ECECA2011E4FE6F00F2050D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		8ECECA2B11E4FE9700F2050D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8ECECC7611E53DF300F2050D /* test.smc */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.smc; sourceTree = "<group>"; };
 		CE43A4A3119DEA3C0007E399 /* EmulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmulationViewController.h; sourceTree = "<group>"; };
 		CE43A4A4119DEA3C0007E399 /* EmulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmulationViewController.m; sourceTree = "<group>"; };
 		CE43A4B3119DF2B00007E399 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -317,6 +319,7 @@
 		CE43A4CC119DFEF70007E399 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8ECECC7611E53DF300F2050D /* test.smc */,
 				CEE8575A11AADBE100784F8D /* ArrowBack.png */,
 				CEE8575B11AADBE100784F8D /* ArrowForward.png */,
 				CE43A4CD119DFEF70007E399 /* cartridge.png */,
@@ -404,6 +407,7 @@
 				CEE8575411AAD27900784F8D /* WebBrowserViewController.xib in Resources */,
 				CEE8575C11AADBE100784F8D /* ArrowBack.png in Resources */,
 				CEE8575D11AADBE100784F8D /* ArrowForward.png in Resources */,
+				8ECECC7711E53DF300F2050D /* test.smc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
